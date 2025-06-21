@@ -54,7 +54,7 @@ export default function App() {
         <a href="https://docs.amplify.aws/nextjs/start/quickstart/nextjs-app-router-client-components/">
           Review next steps of this tutorial.
         </a>
-        {/* <button onClick={signOut}>Sign out</button> */}
+        <button onClick={signOut}>Sign out</button>
       </div>
     </main>
   );
