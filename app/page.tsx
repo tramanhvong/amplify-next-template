@@ -48,13 +48,13 @@ export default function App() {
               key={todo.id}>{todo.content}</li>
         ))}
       </ul>
+      <button onClick={signOut}>Sign out</button>
       <div>
         🥳 App successfully hosted. Try creating a new todo.
         <br />
         <a href="https://docs.amplify.aws/nextjs/start/quickstart/nextjs-app-router-client-components/">
           Review next steps of this tutorial.
         </a>
-        <button onClick={signOut}>Sign out</button>
       </div>
     </main>
   );
